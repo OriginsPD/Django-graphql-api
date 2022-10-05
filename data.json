@@ -1,0 +1,52 @@
+[
+    {
+        "fields": {
+            "author": "",
+            "review": 3,
+            "title": "The One Thing",
+            "year_published": 2002
+        },
+        "model": "books.book",
+        "pk": 1
+    },
+    {
+        "fields": {
+            "author": "Eric Matthes",
+            "review": 5,
+            "title": "Python Crash Course",
+            "year_published": 2015
+        },
+        "model": "books.book",
+        "pk": 2
+    },
+    {
+        "fields": {
+            "author": "James Clear",
+            "review": 4,
+            "title": "Atomic Habits",
+            "year_published": 2002
+        },
+        "model": "books.book",
+        "pk": 3
+    },
+    {
+        "fields": {
+            "author": "Darren Hardy",
+            "review": 3,
+            "title": "The Compound Effect",
+            "year_published": 2010
+        },
+        "model": "books.book",
+        "pk": 4
+    },
+    {
+        "fields": {
+            "author": "Robert Cecil Martin",
+            "review": 4,
+            "title": "Clean Code",
+            "year_published": 2008
+        },
+        "model": "books.book",
+        "pk": 5
+    }
+]
