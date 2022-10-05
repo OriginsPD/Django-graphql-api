@@ -36,10 +36,12 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
-    'django.contrib.staticfiles', 
+    'django.contrib.staticfiles',
     'graphene_django',
-    'books'
-    
+    'books',
+    'planner',
+    'accounts'
+
 ]
 
 MIDDLEWARE = [
@@ -125,7 +127,10 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
+AUTH_USER_MODEL = 'accounts.User'
+
 # Graphene Configurations
-GRAPHENE = {
-    "SCHEMA": "books.schema.schema"
-}
+# GRAPHENE = {
+#     "SCHEMA": ("books.schema.schema", "planner.schema.schema")
+
+# }
